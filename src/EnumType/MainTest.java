@@ -38,5 +38,10 @@ public class MainTest {
         } else if (transactionType == TransactionType.OTHER) {
             System.out.println("Other transaction");
         }
+
+        //Note: Enum yapıya has metodlar
+        System.out.println("Enum type: "+ transactionType.name() );
+        System.out.println("Enum Coder Value: "+ transactionType.getTransactionCode());
+        System.out.println("Enum Ordinal: "+ transactionType.ordinal());
     }
 }

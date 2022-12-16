@@ -13,4 +13,7 @@ public enum TransactionType {
         this.transactionCode=code;
     }
 
+    public int getTransactionCode() {
+        return transactionCode;
+    }
 }

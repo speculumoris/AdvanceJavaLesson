@@ -27,6 +27,13 @@ public class GenericUpperBound<T extends  Number> { //!!! üstten sınırlıyoru
         GenericUpperBound<Double> obj2=new GenericUpperBound<>(doubleArray);
         System.out.println(obj2.getAvarage());
 
+        Integer[] intArr={2,3,7,33};
+        GenericUpperBound<Integer> obj3=new GenericUpperBound<Integer>(intArr);
+
+        double[]doubArr={2.5,4.6,7.8};
+
+
+
         //Bu class'ta -number class oldugu icin- String calismaz
 
 
